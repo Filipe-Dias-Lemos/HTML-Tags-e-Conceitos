@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML - Tags e Conceitos</title>
+</head>
+<body>
+  <h1 id="inicio">Sobre o <abbr title="Hypertext Markup Language">HTML</abbr></h1>
+  <hr>
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#estrutura-basica">Estrutura básica</a></li>
+    <li><a href="#texto">Tags de texto</a></li>
+    <li><a href="#ancoras">Âncoras</a></li>
+    <li><a href="#citacoes">Citações</a></li>
+    <li><a href="#inputs">Inputs</a></li>
+    <li><a href="#abreviacoes">Abreviações</a></li>
+    <li><a href="#alteracoes">Alterações</a></li>
+    <li><a href="#fontes">Fontes</a></li>
+    <li><a href="referencias">Referencias</a></li>
+  </ul>
+
+  <h2 id="estrutura-basica">Estrutura básica</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    Uma página HTML básica geralmente começa com a declaração do tipo de documento, indicada pela tag <strong>&lt;!DOCTYPE html&gt;</strong>. Em seguida, o elemento <strong>&lt;html&gt;</strong> é usado para envolver todo o conteúdo da página. Dentro do elemento <strong>&lt;html&gt;</strong>, são geralmente encontrados dois principais blocos: o <strong>&lt;head&gt;</strong> e o <strong>&lt;body&gt;</strong>. O <strong>&lt;head&gt;</strong> contém metadados sobre o documento, como título, codificação de caracteres, folhas de estilo CSS e scripts JavaScript, enquanto o <strong>&lt;body&gt;</strong> contém o conteúdo visível da página, como texto, imagens, vídeos e outros elementos HTML.
+  </p>
+
+  <h2 id="texto">Tags de texto</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    No HTML, as tags básicas de texto desempenham um papel crucial na estruturação e formatação do conteúdo de uma página da web. A tag <strong>&lt;p&gt;</strong> é usada para definir parágrafos, enquanto as tags de cabeçalho, <strong>&lt;h1&gt;</strong> a <strong>&lt;h6&gt;</strong>, são utilizadas para criar títulos de diferentes níveis, com o <strong>&lt;h1&gt;</strong> sendo o mais importante e <strong>&lt;h6&gt;</strong> o menos importante. As tags <strong>&lt;strong&gt;</strong> e <strong>&lt;b&gt;</strong> são usadas para destacar o texto em negrito, enquanto <strong>&lt;em&gt;</strong> e <strong>&lt;i&gt;</strong> são usadas para enfatizar o texto em itálico. A tag <strong>&lt;u&gt;</strong> é usada para sublinhar o texto, enquanto <strong>&lt;sub&gt;</strong> e <strong>&lt;sup&gt;</strong> são usadas para texto em subscrito e sobrescrito, respectivamente. Por fim, a tag <strong>&lt;mark&gt;</strong> é usada para destacar parte do texto com uma cor de fundo diferente, geralmente para fins de referência ou ênfase visual. Essas tags básicas desempenham um papel fundamental na criação de uma estrutura de texto clara e legível em documentos HTML.
+  </p>
+
+  <h2 id="ancoras">Âncoras</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    As âncoras são usadas para criar links dentro da mesma página ou para outras páginas da web. Você pode definir uma âncora usando a tag <strong>&lt;a&gt;</strong> com o atributo <strong>href</strong> apontando para o ID do elemento que você deseja vincular. Por exemplo, <strong>&lt;a href="#inicio"&gt;Voltar ao início&lt;/a&gt;</strong> irá criar um link que leva o usuário de volta ao início da página, onde o elemento possui o ID "inicio".
+  </p>
+
+  <h2 id="citacoes">Citações</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    As citações podem ser incorporadas ao conteúdo HTML usando as tags <strong>&lt;q&gt;</strong> para citações curtas e <strong>&lt;blockquote&gt;</strong> para citações longas. A tag <strong>&lt;q&gt;</strong> é usada para citações curtas que aparecem dentro de um parágrafo, enquanto a tag <strong>&lt;blockquote&gt;</strong> é usada para citações mais longas que geralmente são exibidas em um bloco separado, com uma margem recuada.
+  </p>
+
+  <h2 id="inputs">Inputs</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    Os inputs são elementos interativos que permitem aos usuários inserir dados em um formulário. Existem vários tipos de inputs, incluindo textos, botões, caixas de seleção, checkboxes, entre outros. Cada tipo de input é representado por uma tag HTML correspondente, como <strong>&lt;input type="text"&gt;</strong> para entradas de texto simples, <strong>&lt;input type="checkbox"&gt;</strong> para checkboxes, e assim por diante.
+  </p>
+
+  <h2 id="abreviacoes">Abreviações</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    Abreviações podem ser marcadas usando a tag <strong>&lt;abbr&gt;</strong>. Isso permite que os navegadores mostrem a forma completa da abreviação quando o usuário passa o mouse sobre ela. Por exemplo, <abbr title="Hypertext Markup Language">HTML</abbr> será exibido como "HTML", mas o usuário verá a forma completa "Hypertext Markup Language" quando passar o mouse sobre ele.
+  </p>
+
+  <h2 id="alteracoes">Alterações</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    Alterações ou exclusões podem ser indicadas usando as tags <strong>&lt;del&gt;</strong> para texto <mark>excluído</mark> e <strong>&lt;ins&gt;</strong> para texto <mark>inserido</mark>. O navegador geralmente exibirá o texto deletado com uma linha através dele e o texto inserido sublinhado. Por exemplo, <del>texto antigo</del> e <ins>texto novo</ins>.
+  </p>
+
+  <h2 id="fontes">Fontes</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <p>
+    A tag <font> era usada para definir o estilo da fonte em versões mais antigas do HTML, mas agora é considerada obsoleta em favor do uso de CSS para estilização. No entanto, ainda é válido para fins de compatibilidade com navegadores antigos, embora seja recomendado o uso de CSS para estilização de fontes.
+  </p>
+
+  <h2 id="referencias">Referencias</h2>
+  <small><a href="#inicio"><i><u>Voltar</u></i></a></small>
+  <ol>
+    <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">Oque é HTML</a></li>
+    <li><a href="https://www.w3schools.com/html/" target="_blank">Documentação</a></li>
+  </ol>
+</body>
+</html>
